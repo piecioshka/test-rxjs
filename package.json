@@ -1,0 +1,21 @@
+{
+    "private": true,
+    "name": "warsawjs-workshop-9-rxjs-try",
+    "description": "",
+    "version": "1.0.0",
+    "license": "MIT",
+    "author": {
+        "name": "Piotr Kowalski",
+        "email": "piecioshka@gmail.com",
+        "url": "https://piecioshka.pl/"
+    },
+    "scripts": {},
+    "dependencies": {
+        "rxjs": "latest"
+    },
+    "devDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:piecioshka/warsawjs-workshop-9-rxjs-try.git"
+    }
+}

@@ -1,4 +1,4 @@
-console.log('[Testing] Subject: 3-operator-as-observable');
+console.log('[Testing] Subject: 2-operator-as-observable');
 
 let Rx = require('rxjs');
 let S = Rx.Subject;

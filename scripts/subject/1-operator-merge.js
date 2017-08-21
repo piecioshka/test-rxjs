@@ -1,4 +1,4 @@
-console.log('[Testing] Subject: 2-operator-merge');
+console.log('[Testing] Subject: 1-operator-merge');
 
 let Rx = require('rxjs');
 let S = Rx.Subject;

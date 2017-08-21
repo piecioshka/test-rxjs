@@ -1,6 +1,6 @@
 # warsawjs-workshop-9-rxjs-try
 
-> :ledger: Try to run RxJS with clock example
+> :ledger: Testing RxJS capabilities
 
 ## Links
 

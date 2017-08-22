@@ -5,7 +5,7 @@ let Rx = require('rxjs');
 Rx.Observable.of();      // EmptyObservable;
 Rx.Observable.create();  // Observable
 
-const url = '//jsonplaceholder.typicode.com/posts';
+const URL = '//jsonplaceholder.typicode.com/posts';
 
 function request(url, observer) {
     fetch(url)
@@ -16,7 +16,7 @@ function request(url, observer) {
 }
 
 Rx.Observable
-    .create(obs => request(url, obs))
+    .create(obs => request(URL, obs))
     .subscribe(
         console.log.bind(console, 'success'),
         console.log.bind(console, 'error'),

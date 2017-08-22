@@ -1,6 +1,6 @@
 console.log('[Testing] Observable: 5-fetch-data-as-observable');
 
-let Rx = require('rxjs');
+// let Rx = require('rxjs');
 
 Rx.Observable.of();      // EmptyObservable;
 Rx.Observable.create();  // Observable
@@ -22,3 +22,12 @@ Rx.Observable
         console.log.bind(console, 'error'),
         console.log.bind(console, 'complete')
     );
+
+// -----------------------------------------------------------------------------
+
+Rx.Observable
+    .from(fetch(URL))
+    .flatMap((res) => Rx.Observable.from(res.json()))
+    .subscribe((fetchRes) => {
+        console.log('fetch sub', fetchRes);
+    });

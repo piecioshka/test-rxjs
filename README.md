@@ -1,11 +1,11 @@
-# warsawjs-workshop-9-rxjs-try
+# test-rxjs
 
 > :ledger: Testing RxJS capabilities
 
 ## Links
 
-* https://github.com/ReactiveX/RxJS
-* https://cdnjs.com/libraries/rxjs/
+* <https://github.com/ReactiveX/RxJS>
+* <https://cdnjs.com/libraries/rxjs/>
 
 ## License
 

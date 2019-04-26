@@ -1,6 +1,6 @@
 {
     "private": true,
-    "name": "warsawjs-workshop-9-rxjs-try",
+    "name": "test-rxjs",
     "description": "",
     "version": "1.0.0",
     "license": "MIT",
@@ -16,6 +16,6 @@
     "devDependencies": {},
     "repository": {
         "type": "git",
-        "url": "git@github.com:piecioshka/warsawjs-workshop-9-rxjs-try.git"
+        "url": "git@github.com:piecioshka/test-rxjs.git"
     }
 }

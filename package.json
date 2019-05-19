@@ -11,7 +11,7 @@
     },
     "scripts": {},
     "dependencies": {
-        "rxjs": "^5.4.3"
+        "rxjs": "^6.5.2"
     },
     "devDependencies": {},
     "repository": {

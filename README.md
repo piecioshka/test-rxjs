@@ -1,12 +1,7 @@
 # test-rxjs
 
-> :ledger: Testing RxJS capabilities
-
-## Links
-
-* <https://github.com/ReactiveX/RxJS>
-* <https://cdnjs.com/libraries/rxjs/>
+:ledger: Testing RxJS with `Marbles Testing`
 
 ## License
 
-[The MIT License](http://piecioshka.mit-license.org) @ 2017
+[The MIT License](http://piecioshka.mit-license.org) @ 2017-2019

@@ -9,11 +9,17 @@
         "email": "piecioshka@gmail.com",
         "url": "https://piecioshka.pl/"
     },
-    "scripts": {},
-    "dependencies": {
-        "rxjs": "^6.5.2"
+    "scripts": {
+        "test": "jasmine test/**/*.js"
     },
-    "devDependencies": {},
+    "dependencies": {
+        "rxjs": "^6.5.2",
+        "rxjs-compat": "^6.5.2"
+    },
+    "devDependencies": {
+        "jasmine": "^3.4.0",
+        "jasmine-marbles": "^0.5.0"
+    },
     "repository": {
         "type": "git",
         "url": "git@github.com:piecioshka/test-rxjs.git"

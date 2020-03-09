@@ -24,11 +24,15 @@ function sendRequest(url) {
         });
 }
 
-sendRequest('./?block', {})
-    .subscribe((r) => {
-        console.log('SUCCESS', r)
-    }, (e) => {
-        console.log('ERROR', e)
-    }, (...args) => {
-        console.log('FINALLY', ...args)
+sendRequest('./?block')
+    .subscribe({
+        next: (r) => {
+            console.log('SUCCESS', r);
+        },
+        error: (e) => {
+            console.log('ERROR', e);
+        },
+        completE: (...args) => {
+            console.log('FINALLY', ...args);
+        }
     });

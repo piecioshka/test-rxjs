@@ -1,7 +1,7 @@
 # test-rxjs
 
-:ledger: Testing RxJS with `Marbles Testing`
+:ledger: Testing RxJS capabilities
 
 ## License
 
-[The MIT License](http://piecioshka.mit-license.org) @ 2017-2019
+[The MIT License](http://piecioshka.mit-license.org) @ 2017

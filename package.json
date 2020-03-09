@@ -13,12 +13,12 @@
         "test": "jasmine test/**/*.js"
     },
     "dependencies": {
-        "rxjs": "^6.5.2",
-        "rxjs-compat": "^6.5.2"
+        "rxjs": "^6.5.4",
+        "rxjs-compat": "^6.5.4"
     },
     "devDependencies": {
-        "jasmine": "^3.4.0",
-        "jasmine-marbles": "^0.5.0"
+        "jasmine": "^3.5.0",
+        "jasmine-marbles": "^0.6.0"
     },
     "repository": {
         "type": "git",
